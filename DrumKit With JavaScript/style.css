@@ -16,7 +16,7 @@ body{
 .key{
     height: 4rem;
     width: 4rem;
-    border: 1px solid white;
+    border: 2px solid black;
     text-align: center;
     transition: all .07s ease;
     text-shadow: 0 0 .5rem black;
@@ -31,19 +31,7 @@ h3{
     color: #f0a105;
 }
 .playing{
-    transform: scale(1.1);
+    transform: scale(1.2);
     border-color: yellow;
     box-shadow: 0 0 1rem #ffc600;
-}
-.banner{
-    position: absolute;
-    left: -10px;
-    width: 200px;
-    padding: 5px;
-    border-radius: 10px;
-    background-color: white;
-    text-align: center;
-}
-.star{
-    font-size: 40px;
 }

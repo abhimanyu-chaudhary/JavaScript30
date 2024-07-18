@@ -9,7 +9,7 @@ function playsound(e){
 
     setTimeout(() => {
         key.classList.remove('playing');
-    }, 500);
+    }, 100);
 }
 
 
