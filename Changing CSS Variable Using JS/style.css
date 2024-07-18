@@ -1,0 +1,22 @@
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 5px;
+}
+body{
+    text-align: center;
+    font-weight: 300;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    font-size: 16px;
+}
+img{
+    margin-top: 5rem;
+    width: 30vw;
+    object-fit: cover;
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+}
+.js{
+    color: var(--base);
+}
