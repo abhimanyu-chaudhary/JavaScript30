@@ -39,7 +39,7 @@ const inventors = [
   const sortArrayByName = inventors.sort((a,b) => a.first.localeCompare(b.first));
 
 //   console.log(sortArray);
-//   console.log(sortArrayByName);
+  console.table(sortArrayByName);
 
   // Array.prototype.reduce()
   // 4. How many years did all the inventors live all together?
