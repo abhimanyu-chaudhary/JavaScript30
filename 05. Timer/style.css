@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+
+}
+.timer{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    padding: 8px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font: bold;
+}
+.start{
+    background-color: green;
+}
+.stop{
+    background-color: red;
+}
+.reset{
+    background-color: yellow;;
+}
