@@ -52,3 +52,26 @@ setInterval(() => {
     setDigiTime();   
 }, 1000);
 
+
+
+intervalRef.current = setInterval(() => {
+    setMiniSecond((miniSecond) => {
+      if(miniSecond >= 9){
+        setSecond((second) => {
+          if(second >= 59){
+            setMinute((minute) => {
+              if(minute >= 59){
+                setHour((hour) => hour + 1);
+                return 0;
+              }
+              return minute + 1;
+            })
+            return 0;
+          }
+          return second + 1;
+        })
+        return 0;
+      }
+      return miniSecond + 1;
+    })
+  }, 100); 
