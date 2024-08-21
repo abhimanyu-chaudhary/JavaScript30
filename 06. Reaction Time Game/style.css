@@ -1,0 +1,34 @@
+.container {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 10px 10px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    border: 1px solid #333;
+}
+
+.box.active {
+    background-color: yellow;
+}
+
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #333;
+}
