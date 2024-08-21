@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    gap:20px;
+    margin-top: 20px
+    justify-content: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 20px;
+    margin: 20px 20px;
+}
+.container-left{
+    text-align: center;
+    margin-top: 20px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid #171717;
+}
+.box.active{
+    background-color: red;
+}
+button{
+    padding: 10px 8px;
+    margin-bottom: 10px;
+}
+table{
+    text-align: center;
+    padding: 20px auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid                                 #171717;
+    padding: 10px 20px;
+}
+input{
+    width: 150px;
+    height: 30px;
+    margin-left: 10px;
+}
+form{
+    margin-top: 10px;
+}
+
+
+.btns{
+    margin-top: 20px;
+}
+span{
+    padding: 8px 8px;
+    background-color: lightblue;
+    cursor: pointer;
+}
