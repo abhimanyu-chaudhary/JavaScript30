@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse String with Interval</title>
+</head>
+<body>
+    
+    <div id="output"></div>
+
+    <script>
+       let str = prompt("Enter a string");
+
+       let revStr = str.split('').reverse().join('');
+       let index = 0;
+
+       let output = document.getElementById('output');
+
+       const interval = setInterval(() => {
+            if(index < revStr.length){
+                output.innerHTML += revStr[index];
+                index++;
+            }else{
+                clearInterval(interval);
+            }
+       }, 300);
+    
+
+    </script>
+</body>
+</html>
